@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="inner">
+        <form action="" method="post">
+            <div class="form-content">
+                <div class="item-name">名前</div>
+                <div class="item-input">
+                    <input class="form-area username-field" type="text" name="name">
+                    <div class="error-message username-error"></div>
+                </div>
+            </div>
+            <div class="form-content">
+                <div class="item-name">メールアドレス</div>
+                <div class="item-input">
+                    <input class="form-area email-field" type="email" name="email">
+                    <div class="error-message email-error"></div>
+                </div>
+            </div>
+            <div class="form-content">
+                <div class="item-name">電話番号</div>
+                <div class="item-input">
+                    <input class="form-area tel-field" type="tel" name="tel">
+                    <div class="error-message tel-error"></div>
+                </div>
+            </div>
+            <div class="submit-form">
+                <input id="submit" class="disabled" type="submit" value="送信">
+            </div>
+        </form>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
